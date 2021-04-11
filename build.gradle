@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // todo: for openblocks-module-interface.jar, use modules instead so we can update it with the github repository
+    implementation files("libs/android-30.jar", "libs/openblocks-module-interface.jar")
+}

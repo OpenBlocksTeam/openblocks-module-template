@@ -1,0 +1,2 @@
+./gradlew jar
+# todo
