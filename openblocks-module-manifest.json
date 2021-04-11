@@ -1,0 +1,13 @@
+{
+  "jar": "JAR_NAME.jar",
+  "modules": [
+    {
+      "name": "ExampleModule",
+      "description": "An example openblocks module",
+      "classpath": "com.openblocks.module.example.ExampleModule",
+      "version": 1,
+      "lib_version": 1,
+      "type": "PROJECT_MANAGER"
+    } 
+  ]
+}
