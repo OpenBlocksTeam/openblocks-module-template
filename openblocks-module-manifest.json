@@ -1,5 +1,5 @@
 {
-  "jar": "JAR_NAME.jar",
+  "jar": "out.jar",
   "modules": [
     {
       "name": "ExampleModule",
