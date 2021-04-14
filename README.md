@@ -16,3 +16,6 @@ Then run
 ```
 
 The compiled module will be named `release.obm`, have fun!
+
+## How does this works?
+It's just a simple IntelliJ IDEA project with android-30's and openblocks-module-interface jar compiled with it, then it gets dexed by d8, after that, pack the dexed jar and the manifest into a zip, and rename the zip to be `.obm`.
