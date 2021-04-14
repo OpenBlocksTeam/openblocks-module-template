@@ -9,6 +9,12 @@ echo "Building jar ==================================="
 # Build the module into a jar
 ./gradlew jar
 
+# Check if the gradle jar build succeed
+if [ $? != 0 ]; then
+  echo "Gradle build failed"
+  exit 1
+fi
+
 echo "Checking if the necessary commands exists ======"
 
 # Check if wget, java, and zip exists
