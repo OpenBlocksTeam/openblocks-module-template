@@ -2,7 +2,7 @@
 An Intellij IDEA template project used to create OpenBlocks modules
 
 ## Building
-> Warning: Building on windows is NOT yet supported
+> Warning: Building on windows is NOT supported yet
 
 To build your openblocks module, make sure to have all of these installed in your UNIX/UNIX-Like system:
  - java (8 is recommended)
